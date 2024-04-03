@@ -14,6 +14,8 @@ const UseMemoExample = () => {
     return expensiveCalculation();
   }, []);
 
+  console.log("The component rendered");
+
   return (
     <>
       <h1 className="font-bold mb-12">This is a example of useMemo()</h1>

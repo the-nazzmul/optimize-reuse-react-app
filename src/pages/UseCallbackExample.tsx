@@ -10,6 +10,15 @@ const Button = memo(({ handleClick }: any) => {
   );
 });
 
+// const Button = ({ handleClick }: any) => {
+//   console.log("Button Rendered");
+//   return (
+//     <button className="btn border-2 border-black " onClick={handleClick}>
+//       Click Here
+//     </button>
+//   );
+// };
+
 const UseCallbackExample = () => {
   const [count, setCount] = useState(0);
 
